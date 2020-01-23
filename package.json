@@ -1,8 +1,8 @@
 {
-  "name": "object-validation",
-  "version": "1.0.0",
+  "name": "object-validations",
+  "version": "1.0.2",
   "description": "object validation",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc"

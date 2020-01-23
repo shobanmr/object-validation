@@ -95,5 +95,5 @@ function isEmpty(data:any):boolean {
 }
 
 
-let result = validate(data);
-console.log('result: ', result);
+// let result = validate(data);
+// console.log('result: ', result);

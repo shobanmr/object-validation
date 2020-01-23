@@ -123,5 +123,5 @@ function isEmpty(data) {
     }
     return false;
 }
-var result = validate(data);
-console.log('result: ', result);
+// let result = validate(data);
+// console.log('result: ', result);

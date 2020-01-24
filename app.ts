@@ -58,25 +58,7 @@ function validateArray(arr: any, parentProp: any): any {
    return res;
 }
 
-let data = {
-   name: 'shoban',
-   age: 23,
-   languages: ['tamil', ''],
-   test: [
-      {
-         'a': {
-            'z':0,
-            'y': [
-               {
-                  'x': {
-                     'v': ['']
-                  }
-               }
-            ]
-         }
-      }
-   ]
-}
+
 
 export function validate(reqData: object) {
    let result = validateObject(reqData);
@@ -94,6 +76,25 @@ function isEmpty(data:any):boolean {
    return false;
 }
 
+let data = {
+   name: '',
+   age: 0,
+   languages: ['tamil', ''],
+   test: [
+      {
+         'a': {
+            'z':0,
+            'y': [
+               {
+                  'x': {
+                     'v': ['']
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
 
 // let result = validate(data);
 // console.log('result: ', result);

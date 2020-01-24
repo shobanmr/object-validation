@@ -88,25 +88,6 @@ function validateArray(arr, parentProp) {
     }
     return res;
 }
-var data = {
-    name: 'shoban',
-    age: 23,
-    languages: ['tamil', ''],
-    test: [
-        {
-            'a': {
-                'z': 0,
-                'y': [
-                    {
-                        'x': {
-                            'v': ['']
-                        }
-                    }
-                ]
-            }
-        }
-    ]
-};
 function validate(reqData) {
     var result = validateObject(reqData);
     if (result.length > 0) {
@@ -123,5 +104,24 @@ function isEmpty(data) {
     }
     return false;
 }
-// let result = validate(data);
-// console.log('result: ', result);
+var data = {
+    name: '',
+    age: 0,
+    languages: ['tamil', ''],
+    test: [
+        {
+            'a': {
+                'z': 0,
+                'y': [
+                    {
+                        'x': {
+                            'v': ['']
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+};
+var result = validate(data);
+console.log('result: ', result);

@@ -6,7 +6,12 @@
 
 Install the library with `npm install validator`
 
-const val = require('object-validations')
+const validation = require('object-validations')
+
+### Sample
+
+```
+const valObj = require('object-validations')
 
 let data = {
    name: '',
@@ -28,8 +33,9 @@ let data = {
    ]
 }
 
-let result = validate(data);
+let result = valObj.validate(data);
 console.log('result: ', result);
+```
 
 
 ### Result

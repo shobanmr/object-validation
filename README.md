@@ -1,6 +1,7 @@
 # object-validation
 
-**This library validates objects only.**
+*I have made https://www.npmjs.com/package/object_validations deprecated so instead you can use https://www.npmjs.com/package/nodejs-object-validations*
+*You can add your suggesstion by creating a new issue*
 
 ## Installation and Usage
 
